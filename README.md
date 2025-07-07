@@ -1,4 +1,4 @@
-W  elcome to craneo.png :)
+Welcome to craneo.png :)
 
 ## How to use:
 
