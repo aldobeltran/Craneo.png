@@ -1,0 +1,33 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #000000;
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+
+  .add-to-cart-alert {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border-radius: 5px;
+    z-index: 1000;
+    font-size: 16px;
+  }
+  
+  .add-to-cart-alert a {
+    color: #34C759;
+    text-decoration: underline;
+    margin-left: 10px;
+  }
+  
